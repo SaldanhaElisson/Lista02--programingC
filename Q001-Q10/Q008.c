@@ -46,7 +46,8 @@ int main(){
 
         // outra variavel aux  vai pegar o resto da divisão por 3
         resto = (int)valorDoProduto % 3;
-        //  depois vai dividir por 3 
+
+        //  depois vai dividir por 3 sem o resto da divisão
         auxInteiro = valorDoProduto / 3;
 
         // o valor da entrada vai receber esse valor dividido por 3 + resto da divisão + nunero depois da virgula
