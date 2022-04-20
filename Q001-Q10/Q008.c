@@ -13,14 +13,15 @@ int main(){
     int resto;
 
     // entrada do valorDoProduto
-    printf("Digite o valor do produto: \n");
+    printf("Digite o valor do produto:\n");
     scanf("%f", &valorDoProduto);
 
     // vai existir dois casos
     //1°caso: os valores das parcelas e entradas são iguais
     //2°caso: o valor da entrada é maior que as das parcelas e as parcelas são as maiores póssiveis
 
-    // prodcessamento
+
+    // processamento
     while (1)
     {      
 
@@ -29,7 +30,7 @@ int main(){
        // mutiplicar por 100
         auxInteiro = (int)(valorDoProduto * 100);
        // pegar o resto da divisão poir 3
-       // se for 0, os valores das entradas vão ser 1/3 do valor
+       // se for 0, os valores das entradas e das parcelas vão ser 1/3 do valor
         if(!(auxInteiro % 3)){
             entrada = valorDoProduto / 3;
             parcelas = entrada;
@@ -48,7 +49,7 @@ int main(){
         //  depois vai dividir por 3 
         auxInteiro = valorDoProduto / 3;
 
-        // o valor da entrada vai receber esse valor dividido por 3 + o resto da divisão + nunero depois da virgula
+        // o valor da entrada vai receber esse valor dividido por 3 + resto da divisão + nunero depois da virgula
         entrada = auxInteiro + numeroDepoisDaVirgula + resto;
         
         // valor das parcelas
