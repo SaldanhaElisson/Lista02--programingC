@@ -20,7 +20,6 @@ int main(){
     //1°caso: os valores das parcelas e entradas são iguais
     //2°caso: o valor da entrada é maior que as das parcelas e as parcelas são as maiores póssiveis
 
-
     // processamento
     while (1)
     {      
