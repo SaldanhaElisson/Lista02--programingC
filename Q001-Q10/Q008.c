@@ -53,6 +53,7 @@ int main(){
         // o valor da entrada vai receber esse valor dividido por 3 + resto da divisão + nunero depois da virgula
         entrada = auxInteiro + numeroDepoisDaVirgula + resto;
         
+
         // valor das parcelas
         // valor das parcelas = (valor entrada - valorDoProduto) / 2
         parcelas = (valorDoProduto - entrada) / 2;
@@ -61,8 +62,8 @@ int main(){
         break;
     }
     
-    printf("%.2f \n", entrada);
-    printf("%.2f \n", parcelas);
+    printf("2X PARCELAS: %.2f \n", entrada);
+    printf("ENTRADA: %.2f \n", parcelas);
 
     
     return 0;
