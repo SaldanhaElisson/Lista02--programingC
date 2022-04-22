@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int fatorial = 0;
+    unsigned int  fatorial = 0;
  
     printf("Digite um numero para calcular seu fatorial \n");
     scanf("%d", &fatorial);
